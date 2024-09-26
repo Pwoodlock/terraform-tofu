@@ -1,0 +1,13 @@
+# Terraform files
+.terraform
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Sensitive variables file
+terraform.tfvars
+
+# SSH keys
+terraform_pve2
+*.pem
+id_rsa
