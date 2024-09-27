@@ -10,6 +10,7 @@ package_upgrade: true
 
 packages:
   - qemu-guest-agent
+  - ansible
 
 runcmd:
   - systemctl start qemu-guest-agent
